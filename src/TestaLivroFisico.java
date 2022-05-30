@@ -10,5 +10,6 @@ public class TestaLivroFisico {
 		livFis1.aplicarDesconto();
 		
 		System.out.println(String.format("Valor do livro com desconto: %.2f", livFis1.valor));
+		System.out.println(String.format("Valor do livro com taxa de impressão: %.2f", livFis1.getTaxaImpressao()));
 	}
 }
